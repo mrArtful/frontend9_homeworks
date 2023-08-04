@@ -8,6 +8,12 @@ const nums1 = [5, 6, 92, 47, 12, -18, 33, 8];
 const names = ['jack', 'sarah', 'mary', 'joey', 'chris', 'samantha'];
 const namesObject = [];
 
+names.forEach(name => {
+    namesObject.push({ name: `${name[0].toUpperCase()}${name.slice(1, name.length)}`});
+})
+
+console.log(namesObject);
+
 
 // Напишите программу которая в массив numsRes добавит объекты
 // с тремя парами { number: "само число", square: "число в квадрпате", cube: "число в кубе"}
