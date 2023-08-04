@@ -41,4 +41,4 @@ const people = [{name: 'Jack', surname: 'Smith'}, {name: 'Bob', surname: 'Summer
 // выведет в консоль число и FIZZ BUZZ если число делится на 3 и на 5 без остатка
 
 
-
+ 
